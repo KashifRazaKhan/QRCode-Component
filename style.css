@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed&family=Outfit:wght@400;700&display=swap');
+:root{
+--white: hsl(0, 0%, 100%);
+--Lightgray: hsl(212, 45%, 89%);
+--Grayishblue: hsl(220, 15%, 55%);
+--Darkblue: hsl(218, 44%, 22%);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    color: var(--Darkblue);
+    text-align: center;
+    background: var(--Lightgray);
+    font-family: 'Outfit', sans-serif;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.component{
+   background: var(--white);
+   width: 320px;
+   height: 497px;
+   border-radius: 20px;
+   padding: 15px;
+}
+img{
+    width: 290px;
+    height: 290px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+h2{
+    margin-bottom: 10px;
+}
+p{
+    color: var(--Grayishblue);
+}
